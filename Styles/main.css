@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 98vh;
+}
+
+.main__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.main__title {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 52px;
+  font-family: RobotoL, sans-serif;
+}
+
+.main__subtitle {
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: RobotoT, sans-serif;
+}
+
+.main__image {
+  display: flex;
+  margin-top: 80px;
+}
+
+.main__image ul li {
+  list-style-type: none;
+}
+
+.main__image ul li div {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.main__image ul li span {
+  display: inline-block;
+}
+
+.main__image__title {
+  font-family: RobotoM, sans-serif;
+  font-size: 20px;
+}
+
+.main__image__subtitle {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-family: RobotoL, sans-serif;
+  font-size: 16px;
+}
+
+span {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 27px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.main_li1,
+.main_li2 {
+  margin-bottom: 25px;
+}
+
+.main__contents {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-left: 109px;
+  padding-right: 109px;
+  padding-bottom: 50px;
+}
+
+.main__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_content,
+.subtitle_content {
+  margin-top: 0;
+  padding: 10px;
+}
+
+.title_content {
+  font-family: RobotoT, sans-serif;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.main__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-right: 33px;
+}
+
+.main__card__title {
+  font-size: 20px;
+  font-family: RobotoM, sans-serif;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.main__card__subtitle {
+  width: 270px;
+  text-align: center;
+  font-family: RobotoL, sans-serif;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0;
+  color: #5c5c5c;
+}
+
+#primary_first {
+  margin-top: 57px;
+  margin-bottom: 57px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+#primary_second {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.main__gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 199px;
+  padding-right: 199px;
+}
+
+.title_gallery,
+.subtitle_gallery {
+  margin-top: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_gallery {
+  font-family: RobotoT, sans-serif;
+}
+
+.main__galleryimg__first,
+.main__galleryimg__second {
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__gallery__image img {
+  border-radius: 15px;
+  margin-right: 33px;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.main__partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.partners_logo {
+  margin-top: 50px;
+  display: flex;
+}
+
+.partners_logo img {
+  margin-right: 70px;
+  cursor: pointer;
+}
+
+.partners_logo img[src$="images/logos/Partners/ibm.svg"] {
+  margin-right: 0;
+}
+
+.main__partners button {
+  margin-top: 50px;
+}
+
+/*testimonials*/
+
+.testimonials_h1 {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.testimonials {
+  margin-top: 50px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.testimonials img {
+  margin-right: 13px;
+}
+
+.testimonial__name,
+.testimonial__job {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: RobotoM, sans-serif;
+}
+
+.testimonial__job {
+  margin-top: 10px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  margin-right: 23px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 40px;
+  width: 430px;
+  color: white;
+}
+
+.testimonial__title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: RobotoL, sans-serif;
+}
